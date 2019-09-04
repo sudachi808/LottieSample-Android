@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="oval">
+            <size
+                android:width="@dimen/favorite_size"
+                android:height="@dimen/favorite_size" />
+            <solid android:color="@android:color/transparent" />
+        </shape>
+    </item>
+    <item
+        android:bottom="@dimen/favorite_margin"
+        android:drawable="@drawable/ic_favorite_border"
+        android:left="@dimen/favorite_margin"
+        android:right="@dimen/favorite_margin"
+        android:top="@dimen/favorite_margin" />
+</layer-list>
